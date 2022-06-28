@@ -213,6 +213,7 @@
 
 /* Begin PBXFileReference section */
 		8D1107320486CEB800E47090 /* Platypus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platypus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFC66F028637AE800AC9468 /* platypus_cltDefault.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = platypus_cltDefault.entitlements; sourceTree = "<group>"; };
 		F402AEB8219AE0D200BEAF24 /* Interpreter_JavaScript.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Interpreter_JavaScript.png; sourceTree = "<group>"; };
 		F4051D9E1C1B5AF900587F1F /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		F4051DA71C1C812600587F1F /* STReverseDNSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STReverseDNSTextField.h; path = Shared/STReverseDNSTextField.h; sourceTree = "<group>"; };
@@ -461,6 +462,7 @@
 		29B97314FDCFA39411CA2CEA /* Platypus */ = {
 			isa = PBXGroup;
 			children = (
+				EEFC66F028637AE800AC9468 /* platypus_cltDefault.entitlements */,
 				F4975D7A1B2E462A0099D16E /* README.md */,
 				F4ECE1A011F7746A000DB012 /* CHANGES.txt */,
 				F442E00B1EA38C7100BAD80C /* LICENSE.txt */,
@@ -1556,7 +1558,6 @@
 					"-Xlinker",
 					_objc_readClassPair,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.Platypus;
 				PRODUCT_NAME = Platypus;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
@@ -1878,7 +1879,6 @@
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.ScriptExec;
 				PRODUCT_NAME = ScriptExec;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WARNING_CFLAGS = "-Wpartial-availability";
@@ -1963,6 +1963,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = platypus_cltDefault.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPJ7XAT92V;

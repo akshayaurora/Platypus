@@ -399,7 +399,7 @@
 	<key>CFBundleIconFile</key>
 	<string>PlatypusAppIcon</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.sveinbjorn.Platypus</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -411,7 +411,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1227</string>
+	<string>1228</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.developer-tools</string>
 	<key>LSMinimumSystemVersion</key>
